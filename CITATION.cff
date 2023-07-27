@@ -1,0 +1,48 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: OntoUML/UFO Catalog Metadata Vocabulary
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Pedro Paulo
+    family-names: Favato Barcelos
+    email: p.p.favatobarcelos@utwente.nl
+    affiliation: University of Twente
+    orcid: 'https://orcid.org/0000-0003-2736-7817'
+  - given-names: Tiago
+    family-names: Prince Sales
+    email: t.princesales@utwente.nl
+    affiliation: University of Twente
+    orcid: 'https://orcid.org/0000-0002-5385-5761'
+  - given-names: Claudenir
+    family-names: Morais Fonseca
+    orcid: 'https://orcid.org/0000-0003-2528-3118'
+    affiliation: University of Twente
+    email: c.moraisfonseca@utwente.nl
+  - given-names: Mattia
+    family-names: Fummagali
+    email: Mattia.Fummagali@unibz.it
+    affiliation: Free University of Bozen-Bolzano
+    orcid: 'https://orcid.org/0000-0003-3385-4769'
+identifiers:
+  - type: url
+    value: 'https://w3id.org/ontouml-models/vocabulary'
+    description: Vocabulary in Turtle format
+repository-code: 'https://w3id.org/ontouml-models/vocabulary/git'
+url: 'https://w3id.org/ontouml-models/vocabulary/docs'
+repository-artifact: 'https://w3id.org/ontouml-models/vocabulary'
+abstract: >-
+  OWL Vocabulary created to satisfy the metadata needs of
+  the OntoUML/UFO Catalog.
+keywords:
+  - metadata
+  - catalog
+  - ontouml
+  - owl
+  - specification
+  - standard
+license: CC-BY-SA-4.0
