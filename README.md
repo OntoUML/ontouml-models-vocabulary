@@ -2,7 +2,9 @@
 
 <p align="center"><img src="/resources/logo-ocmv.png" width="500">
 
-The OntoUML/UFO Catalog Metadata Vocabulary was created to satisfy the metadata needs of the [OntoUML/UFO Catalog](https://w3id.org/ontouml-models/git), complementing the catalog's schema. Its metadata schema has properties to improve the findability and reusability of the catalog and its models.
+The OntoUML/UFO Catalog Metadata Vocabulary was created to satisfy the metadata needs of the [OntoUML/UFO Catalog](https://w3id.org/ontouml-models/git), complementing the catalog's schema with properties to improve the findability and reusability of the catalog and its models.
+
+[The complete specification of the OntoUML/UFO Catalog Metamodel Vocabulary can be accessed here.](https://w3id.org/ontouml-models/vocabulary/docs)
 
 ## The OntoUML/UFO Catalog
 
