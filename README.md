@@ -1,8 +1,23 @@
 # OntoUML/UFO Catalog Metadata Vocabulary
 
-<p align="center"><img src="/resources/logo.png" width="500">
+<p align="center"><img src="/resources/logo-ocmv.png" width="500">
 
-The OntoUML/UFO Catalog Metadata Vocabulary is used to define the metadata of the [OntoUML/UFO Catalog](https://w3id.org/ontouml-models)
+The OntoUML/UFO Catalog Metadata Vocabulary was created to satisfy the metadata needs of the [OntoUML/UFO Catalog](https://w3id.org/ontouml-models/git), complementing the catalog's schema. Its metadata schema has properties to improve the findability and reusability of the catalog and its models.
+
+## The OntoUML/UFO Catalog
+
+The **OntoUML/UFO Catalog** is a structured and open-source catalog that contains OntoUML and UFO ontology models. It was conceived to allow collaborative work and to be easily accessible to all its users. Its goal is to support empirical research in OntoUML and UFO, as well as for the general conceptual modeling area, by providing high-quality curated, structured, and machine-processable data on *why*, *where*, and *how* different modeling approaches are used.
+
+## Associated URLs
+
+The OntoUML/UFO Catalog Metadata Vocabulary is associated to the following URLs:
+- Turtle specification: https://w3id.org/ontouml-models/vocabulary
+- Textual specification: https://w3id.org/ontouml-models/vocabulary/docs
+- Git repository: https://w3id.org/ontouml-models/vocabulary/git
+- Releases:
+  - Latest release: https://w3id.org/ontouml-models/vocabulary/latest
+  - Specific release: https://w3id.org/ontouml-models/vocabulary/release/_<version_number>_
+    - _<version_number>_ must be substituted by a release version number starting with the letter 'v' (e.g., 'v1.0.0')
 
 ## Contributors
 
