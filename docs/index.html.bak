@@ -135,21 +135,17 @@ $(function(){
         <ol id="mozToc">
           <!--mozToc h1 1 h2 2-->
           <li><a href="#mozTocId553663">Introduction</a></li>
-          <li><a href="#mozTocId669096">OntoUML/UFO Catalog Metadata Vocabulary:
-              Overview</a></li>
           <li><a href="#mozTocId980256">The OntoUML/UFO Catalog Metadata</a></li>
-          <li><a href="#mozTocId594246">Cross-reference for OntoUML/UFO Catalog
-              Metadata Vocabulary entities</a></li>
+          <li><a href="#mozTocId594246">The OntoUML/UFO Catalog Metadata
+              Vocabulary</a></li>
         </ol>
-        <h2 class="list"><a id="mozTocId553663" class="mozTocH2"></a>Introduction
-          <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+        <h2 class="list"><a id="mozTocId553663" class="mozTocH2"></a>Introduction&nbsp;
+          <span class="backlink"><a href="#toc"></a></span></h2>
       </div>
       <div>The OntoUML/UFO Catalog Metadata Vocabulary was created to satisfy
         the metadata needs of the OntoUML/UFO Catalog, complementing the
         catalog's schema. Its metadata schema has properties to improve the
         findability and reusability of the catalog and its models.</div>
-      <div><br>
-      </div>
       <div> <span class="markdown">The <strong><a href="https://w3id.org/ontouml-models/git">OntoUML/UFO
               Catalog</a></strong> is a structured and open-source catalog that
           contains OntoUML and UFO ontology models. It was conceived to allow
@@ -191,10 +187,6 @@ $(function(){
                   <td>&lt;http://www.w3.org/2000/01/rdf-schema&gt;</td>
                 </tr>
                 <tr>
-                  <td><b>ontouml-models</b></td>
-                  <td>&lt;https://w3id.org/ontouml-models&gt;</td>
-                </tr>
-                <tr>
                   <td><b>dct</b></td>
                   <td>&lt;http://purl.org/dc/terms&gt;</td>
                 </tr>
@@ -224,95 +216,9 @@ $(function(){
         </div>
       </div>
       <!--OVERVIEW SECTION-->
-      <div id="overview">
-        <h2 id="overv" class="list"><a id="mozTocId669096" class="mozTocH2"></a>OntoUML/UFO
-          Catalog Metadata Vocabulary: Overview <span class="backlink"> back to
-            <a href="#toc">ToC</a></span></h2>
-        <span class="markdown"> This vocabulary has the following classes and
-          properties.</span>
-        <h4>Classes</h4>
-        <ul xmlns:extra="https://w3id.org/extra#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-          class="hlist">
-          <li> <a href="#MetadataElement" title="https://w3id.org/ontouml-models/vocabulary#MetadataElement">Metadata
-              Element</a> </li>
-          <li> <a href="#OntologyDevelopmentContext" title="https://w3id.org/ontouml-models/vocabulary#OntologyDevelopmentContext">Ontology
-              Development Context</a> </li>
-          <li> <a href="#OntologyPurpose" title="https://w3id.org/ontouml-models/vocabulary#OntologyPurpose">Ontology
-              Purpose</a> </li>
-          <li> <a href="#OntologyRepresentationStyle" title="https://w3id.org/ontouml-models/vocabulary#OntologyRepresentationStyle">Ontology
-              Representation Style</a> </li>
-          <li> <a href="#OntologyType" title="https://w3id.org/ontouml-models/vocabulary#OntologyType">Ontology
-              Type</a> </li>
-        </ul>
-        <h4>Object Properties</h4>
-        <ul xmlns:extra="https://w3id.org/extra#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-          class="hlist">
-          <li> <a href="#conformsToSchema" title="https://w3id.org/ontouml-models/vocabulary#conformsToSchema">conforms
-              to schema</a> </li>
-          <li> <a href="#context" title="https://w3id.org/ontouml-models/vocabulary#context">context</a>
-          </li>
-          <li> <a href="#ontologyType" title="https://w3id.org/ontouml-models/vocabulary#ontologyType">ontology
-              type</a> </li>
-          <li> <a href="#representationStyle" title="https://w3id.org/ontouml-models/vocabulary#representationStyle">representation
-              style</a> </li>
-        </ul>
-        <h4>Data Properties</h4>
-        <ul xmlns:extra="https://w3id.org/extra#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-          class="hlist">
-          <li> <a href="#isComplete" title="https://w3id.org/ontouml-models/vocabulary#isComplete">is
-              complete</a> </li>
-          <li> <a href="#storageUrl" title="https://w3id.org/ontouml-models/vocabulary#storageUrl">storage
-              URL</a> </li>
-        </ul>
-        <h4>Annotation Properties</h4>
-        <ul xmlns:extra="https://w3id.org/extra#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-          class="hlist">
-          <li> <a href="#http://purl.org/dc/terms/conformsTo" title="http://purl.org/dc/terms/conformsTo">
-              <span>conforms to</span> </a> </li>
-          <li> <a href="#http://purl.org/dc/terms/creator" title="http://purl.org/dc/terms/creator">
-              <span>creator</span> </a> </li>
-          <li> <a href="#http://purl.org/dc/terms/description" title="http://purl.org/dc/terms/description">
-              <span>description</span> </a> </li>
-          <li> <a href="#http://xmlns.com/foaf/0.1/homepage" title="http://xmlns.com/foaf/0.1/homepage">
-              <span>homepage</span> </a> </li>
-          <li> <a href="#http://purl.org/dc/terms/identifier" title="http://purl.org/dc/terms/identifier">
-              <span>identifier</span> </a> </li>
-          <li> <a href="#http://purl.org/dc/terms/isReferencedBy" title="http://purl.org/dc/terms/isReferencedBy">
-              <span>is referenced by</span> </a> </li>
-          <li> <a href="#http://purl.org/dc/terms/issued" title="http://purl.org/dc/terms/issued">
-              <span>issued</span> </a> </li>
-          <li> <a href="#http://www.w3.org/ns/dcat#keyword" title="http://www.w3.org/ns/dcat#keyword">
-              <span>keyword</span> </a> </li>
-          <li> <a href="#http://www.w3.org/ns/dcat#landingPage" title="http://www.w3.org/ns/dcat#landingPage">
-              <span>landing page</span> </a> </li>
-          <li> <a href="#http://purl.org/dc/terms/language" title="http://purl.org/dc/terms/language">
-              <span>language</span> </a> </li>
-          <li> <a href="#http://purl.org/dc/terms/license" title="http://purl.org/dc/terms/license">
-              <span>license</span> </a> </li>
-          <li> <a href="#http://xmlns.com/foaf/0.1/mbox" title="http://xmlns.com/foaf/0.1/mbox">
-              <span>mbox</span> </a> </li>
-          <li> <a href="#http://xmlns.com/foaf/0.1/member" title="http://xmlns.com/foaf/0.1/member">
-              <span>member</span> </a> </li>
-          <li> <a href="#http://purl.org/dc/terms/modified" title="http://purl.org/dc/terms/modified">
-              <span>modified</span> </a> </li>
-          <li> <a href="#http://xmlns.com/foaf/0.1/name" title="http://xmlns.com/foaf/0.1/name">
-              <span>name</span> </a> </li>
-          <li> <a href="#http://purl.org/vocab/vann/preferredNamespacePrefix" title="http://purl.org/vocab/vann/preferredNamespacePrefix">
-              <span>preferred namespace prefix</span> </a> </li>
-          <li> <a href="#http://purl.org/vocab/vann/preferredNamespaceUri" title="http://purl.org/vocab/vann/preferredNamespaceUri">
-              <span>preferred namespace uri</span> </a> </li>
-          <li> <a href="#http://purl.org/dc/terms/publisher" title="http://purl.org/dc/terms/publisher">
-              <span>publisher</span> </a> </li>
-          <li> <a href="#http://www.w3.org/2004/02/skos/core#scopeNote" title="http://www.w3.org/2004/02/skos/core#scopeNote">
-              <span>scope note</span> </a> </li>
-          <li> <a href="#http://purl.org/dc/terms/title" title="http://purl.org/dc/terms/title">
-              <span>title</span> </a> </li>
-        </ul>
-      </div>
-      <!--DESCRIPTION SECTION-->
       <div id="description">
         <h2 id="desc" class="list"><a id="mozTocId980256" class="mozTocH2"></a>The
-          OntoUML/UFO Catalog Metadata<span class="backlink">back to <a href="#toc">ToC</a></span></h2>
+          OntoUML/UFO Catalog Metadata<span class="backlink"> <a href="#toc"></a></span></h2>
         <figure>
           <p align="center"><img src="https://raw.githubusercontent.com/OntoUML/ontouml-models/master/documentation/metadata-schema.png"
               width="800"> </p>
@@ -346,9 +252,8 @@ $(function(){
       </div>
       <!--CROSSREF SECTION-->
       <div id="crossref">
-        <h2 id="crossreference" class="list"><a id="mozTocId594246" class="mozTocH2"></a>Cross-reference
-          for OntoUML/UFO Catalog Metadata Vocabulary entities<span class="backlink">
-            back to <a href="#toc">ToC</a></span></h2>
+        <h2 id="crossreference" class="list">The OntoUML/UFO Catalog Metadata
+          Vocabulary<span class="backlink"></span></h2>
         This section provides details for each class and property defined by
         OntoUML/UFO Catalog Metadata Vocabulary.
         <div xmlns:extra="https://w3id.org/extra#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -367,9 +272,8 @@ $(function(){
                 Type</a> </li>
           </ul>
           <div class="entity" id="MetadataElement">
-            <h3>Metadata Element<sup class="type-c" title="class">c</sup> <span
-                class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class
-                  ToC</a> </span> </h3>
+            <h3>Metadata Element<sup class="type-c" title="class">c</sup>&nbsp;
+              <span class="backlink"><a href="#classes"></a> </span> </h3>
             <p> <strong>IRI:</strong>
               https://w3id.org/ontouml-models/vocabulary#MetadataElement</p>
             <div class="comment"> <span class="markdown">An element used in the
@@ -392,9 +296,8 @@ $(function(){
             </dl>
           </div>
           <div class="entity" id="OntologyDevelopmentContext">
-            <h3>Ontology Development Context<sup class="type-c" title="class">c</sup>
-              <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class
-                  ToC</a> </span> </h3>
+            <h3>Ontology Development Context<sup class="type-c" title="class">c</sup>&nbsp;
+              <span class="backlink"><a href="#classes"></a> </span> </h3>
             <p> <strong>IRI:</strong>
               https://w3id.org/ontouml-models/vocabulary#OntologyDevelopmentContext</p>
             <div class="comment"> <span class="markdown">Determines what is the
@@ -422,9 +325,8 @@ $(function(){
             </dl>
           </div>
           <div class="entity" id="OntologyPurpose">
-            <h3>Ontology Purpose<sup class="type-c" title="class">c</sup> <span
-                class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class
-                  ToC</a> </span> </h3>
+            <h3>Ontology Purpose<sup class="type-c" title="class">c</sup>&nbsp;
+              <span class="backlink"><a href="#classes"></a> </span> </h3>
             <p> <strong>IRI:</strong>
               https://w3id.org/ontouml-models/vocabulary#OntologyPurpose</p>
             <div class="comment"> <span class="markdown">Determines what is the
@@ -464,9 +366,8 @@ $(function(){
             </dl>
           </div>
           <div class="entity" id="OntologyRepresentationStyle">
-            <h3>Ontology Representation Style<sup class="type-c" title="class">c</sup>
-              <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class
-                  ToC</a> </span> </h3>
+            <h3>Ontology Representation Style<sup class="type-c" title="class">c</sup>&nbsp;
+              <span class="backlink"><a href="#classes"></a> </span> </h3>
             <p> <strong>IRI:</strong>
               https://w3id.org/ontouml-models/vocabulary#OntologyRepresentationStyle</p>
             <div class="comment"> <span class="markdown">Representation styles
@@ -493,9 +394,8 @@ $(function(){
             </dl>
           </div>
           <div class="entity" id="OntologyType">
-            <h3>Ontology Type<sup class="type-c" title="class">c</sup> <span class="backlink">
-                back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
-              </span> </h3>
+            <h3>Ontology Type<sup class="type-c" title="class">c</sup>&nbsp; <span
+                class="backlink"><a href="#classes"></a> </span> </h3>
             <p> <strong>IRI:</strong>
               https://w3id.org/ontouml-models/vocabulary#OntologyType</p>
             <div class="comment"> <span class="markdown">Identifies the
@@ -539,9 +439,8 @@ $(function(){
                 style</a> </li>
           </ul>
           <div class="entity" id="conformsToSchema">
-            <h3>conforms to schema<sup class="type-op" title="object property">op</sup>
-              <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object
-                  Property ToC</a> </span> </h3>
+            <h3>conforms to schema<sup class="type-op" title="object property">op</sup>&nbsp;
+              <span class="backlink"><a href="#objectproperties"></a> </span> </h3>
             <p> <strong>IRI:</strong>
               https://w3id.org/ontouml-models/vocabulary#conformsToSchema</p>
             <div class="comment"> <span class="markdown">Identifies a schema
@@ -567,9 +466,8 @@ $(function(){
             </div>
           </div>
           <div class="entity" id="context">
-            <h3>context<sup class="type-op" title="object property">op</sup> <span
-                class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object
-                  Property ToC</a> </span> </h3>
+            <h3>context<sup class="type-op" title="object property">op</sup>&nbsp;
+              <span class="backlink"><a href="#objectproperties"></a> </span> </h3>
             <p> <strong>IRI:</strong>
               https://w3id.org/ontouml-models/vocabulary#context</p>
             <div class="comment"> <span class="markdown">Identifies an <a href="#Context">ocmv:Context</a>
@@ -593,9 +491,8 @@ $(function(){
             </div>
           </div>
           <div class="entity" id="ontologyType">
-            <h3>ontology type<sup class="type-op" title="object property">op</sup>
-              <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object
-                  Property ToC</a> </span> </h3>
+            <h3>ontology type<sup class="type-op" title="object property">op</sup>&nbsp;
+              <span class="backlink"><a href="#objectproperties"></a> </span> </h3>
             <p> <strong>IRI:</strong>
               https://w3id.org/ontouml-models/vocabulary#ontologyType</p>
             <div class="comment"> <span class="markdown">Identifies an <a href="#OntologyRepresentationStyle">ocmv:OntologyRepresentationStyle</a>
@@ -618,9 +515,8 @@ $(function(){
             </div>
           </div>
           <div class="entity" id="representationStyle">
-            <h3>representation style<sup class="type-op" title="object property">op</sup>
-              <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object
-                  Property ToC</a> </span> </h3>
+            <h3>representation style<sup class="type-op" title="object property">op</sup>&nbsp;
+              <span class="backlink"><a href="#objectproperties"></a> </span> </h3>
             <p> <strong>IRI:</strong>
               https://w3id.org/ontouml-models/vocabulary#representationStyle</p>
             <div class="comment"> <span class="markdown">Identifies an <a href="#OntologyRepresentationStyle">ocmv:OntologyRepresentationStyle</a>
@@ -654,9 +550,8 @@ $(function(){
                 URL</a> </li>
           </ul>
           <div class="entity" id="isComplete">
-            <h3>is complete<sup class="type-dp" title="data property">dp</sup> <span
-                class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data
-                  Property ToC</a> </span> </h3>
+            <h3>is complete<sup class="type-dp" title="data property">dp</sup>&nbsp;
+              <span class="backlink"><a href="#dataproperties"></a> </span> </h3>
             <p> <strong>IRI:</strong>
               https://w3id.org/ontouml-models/vocabulary#isComplete</p>
             <div class="comment"> <span class="markdown">Determines if a
@@ -683,9 +578,8 @@ $(function(){
             </div>
           </div>
           <div class="entity" id="storageUrl">
-            <h3>storage URL<sup class="type-dp" title="data property">dp</sup> <span
-                class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data
-                  Property ToC</a> </span> </h3>
+            <h3>storage URL<sup class="type-dp" title="data property">dp</sup>&nbsp;
+              <span class="backlink"><a href="#dataproperties"></a> </span> </h3>
             <p> <strong>IRI:</strong>
               https://w3id.org/ontouml-models/vocabulary#storageUrl</p>
             <div class="comment"> <span class="markdown">Determines a URL of a
@@ -711,94 +605,233 @@ $(function(){
         </div>
         <div xmlns:extra="https://w3id.org/extra#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           id="annotationproperties">
-          <h3 id="annotationproperties" class="list">Annotation Properties</h3>
+          <h3 id="annotationproperties" class="list">External Properties</h3>
+          <p>These are properties used in the catalog metadata schema that are
+            defined in other vocabularies. Comments were added to better
+            indicate its use within the OntoUML/UFO Catalog's context.</p>
           <ul class="hlist">
-            <li> <a href="#http://purl.org/dc/terms/conformsTo" title="http://purl.org/dc/terms/conformsTo">
-                <span>conforms to</span> </a> </li>
-            <li> <a href="#http://purl.org/dc/terms/creator" title="http://purl.org/dc/terms/creator">
-                <span>creator</span> </a> </li>
-            <li> <a href="#http://purl.org/dc/terms/description" title="http://purl.org/dc/terms/description">
-                <span>description</span> </a> </li>
-            <li> <a href="#http://xmlns.com/foaf/0.1/homepage" title="http://xmlns.com/foaf/0.1/homepage">
-                <span>homepage</span> </a> </li>
-            <li> <a href="#http://purl.org/dc/terms/identifier" title="http://purl.org/dc/terms/identifier">
-                <span>identifier</span> </a> </li>
-            <li> <a href="#http://purl.org/dc/terms/isReferencedBy" title="http://purl.org/dc/terms/isReferencedBy">
-                <span>is referenced by</span> </a> </li>
-            <li> <a href="#http://purl.org/dc/terms/issued" title="http://purl.org/dc/terms/issued">
-                <span>issued</span> </a> </li>
-            <li> <a href="#http://www.w3.org/ns/dcat#keyword" title="http://www.w3.org/ns/dcat#keyword">
+            <li> <a href="http://www.w3.org/ns/dcat#contactPoint" title="http://www.w3.org/ns/dcat#contactPoint">
+                <span>contactPoint</span> </a> </li>
+            <li> <a href="http://www.w3.org/ns/dcat#dataset" title="http://www.w3.org/ns/dcat#dataset">
+                <span>dataset</span> </a> </li>
+            <li> <a href="http://www.w3.org/ns/dcat#distribution" title="http://www.w3.org/ns/dcat#distribution">
+                <span>distribution</span> </a> </li>
+            <li> <a href="http://www.w3.org/ns/dcat#downloadURL" title="http://www.w3.org/ns/dcat#downloadURL">
+                <span>downloadURL</span> </a> </li>
+            <li> <a href="http://www.w3.org/ns/dcat#keyword" title="http://www.w3.org/ns/dcat#keyword">
                 <span>keyword</span> </a> </li>
-            <li> <a href="#http://www.w3.org/ns/dcat#landingPage" title="http://www.w3.org/ns/dcat#landingPage">
-                <span>landing page</span> </a> </li>
-            <li> <a href="#http://purl.org/dc/terms/language" title="http://purl.org/dc/terms/language">
+            <li> <a href="http://www.w3.org/ns/dcat#landingPage" title="http://www.w3.org/ns/dcat#landingPage">
+                <span>landingPage</span> </a> </li>
+            <li> <a href="http://www.w3.org/ns/dcat#mediaType" title="http://www.w3.org/ns/dcat#mediaType">
+                <span>mediaType</span> </a> </li>
+            <li> <a href="http://www.w3.org/ns/dcat#theme" title="http://www.w3.org/ns/dcat#theme">
+                <span>theme</span> </a> </li>
+            <li> <a href="http://www.w3.org/ns/dcat#themeTaxonomy" title="http://www.w3.org/ns/dcat#themeTaxonomy">
+                <span>themeTaxonomy</span> </a> </li>
+            <li> <a href="http://purl.org/dc/terms/accessRights" title="http://purl.org/dc/terms/accessRights">
+                <span>accessRights</span> </a> </li>
+            <li> <a href="http://purl.org/dc/terms/alternative" title="http://purl.org/dc/terms/alternative">
+                <span>alternative</span> </a> </li>
+            <li> <a href="http://purl.org/dc/terms/bibliographicCitation" title="http://purl.org/dc/terms/bibliographicCitation">
+                <span>bibliographicCitation</span> </a> </li>
+            <li> <a href="http://purl.org/dc/terms/contributor" title="http://purl.org/dc/terms/contributor">
+                <span>contributor</span> </a> </li>
+            <li> <a href="http://purl.org/dc/terms/creator" title="http://purl.org/dc/terms/creator">
+                <span>creator</span> </a> </li>
+            <li> <a href="http://purl.org/dc/terms/description" title="http://purl.org/dc/terms/description">
+                <span>description</span> </a> </li>
+            <li> <a href="http://purl.org/dc/terms/format" title="http://purl.org/dc/terms/format">
+                <span>format</span> </a> </li>
+            <li> <a href="http://purl.org/dc/terms/issued" title="http://purl.org/dc/terms/issued">
+                <span>issued</span> </a> </li>
+            <li> <a href="http://purl.org/dc/terms/language" title="http://purl.org/dc/terms/language">
                 <span>language</span> </a> </li>
-            <li> <a href="#http://purl.org/dc/terms/license" title="http://purl.org/dc/terms/license">
+            <li> <a href="http://purl.org/dc/terms/license" title="http://purl.org/dc/terms/license">
                 <span>license</span> </a> </li>
-            <li> <a href="#http://xmlns.com/foaf/0.1/mbox" title="http://xmlns.com/foaf/0.1/mbox">
-                <span>mbox</span> </a> </li>
-            <li> <a href="#http://xmlns.com/foaf/0.1/member" title="http://xmlns.com/foaf/0.1/member">
-                <span>member</span> </a> </li>
-            <li> <a href="#http://purl.org/dc/terms/modified" title="http://purl.org/dc/terms/modified">
+            <li> <a href="http://purl.org/dc/terms/modified" title="http://purl.org/dc/terms/modified">
                 <span>modified</span> </a> </li>
-            <li> <a href="#http://xmlns.com/foaf/0.1/name" title="http://xmlns.com/foaf/0.1/name">
-                <span>name</span> </a> </li>
-            <li> <a href="#http://purl.org/vocab/vann/preferredNamespacePrefix"
-                title="http://purl.org/vocab/vann/preferredNamespacePrefix"> <span>preferred
-                  namespace prefix</span> </a> </li>
-            <li> <a href="#http://purl.org/vocab/vann/preferredNamespaceUri" title="http://purl.org/vocab/vann/preferredNamespaceUri">
-                <span>preferred namespace uri</span> </a> </li>
-            <li> <a href="#http://purl.org/dc/terms/publisher" title="http://purl.org/dc/terms/publisher">
+            <li> <a href="http://purl.org/dc/terms/publisher" title="http://purl.org/dc/terms/publisher">
                 <span>publisher</span> </a> </li>
-            <li> <a href="#http://www.w3.org/2004/02/skos/core#scopeNote" title="http://www.w3.org/2004/02/skos/core#scopeNote">
-                <span>scope note</span> </a> </li>
-            <li> <a href="#http://purl.org/dc/terms/title" title="http://purl.org/dc/terms/title">
+            <li> <a href="http://purl.org/dc/terms/source" title="http://purl.org/dc/terms/source">
+                <span>source</span> </a> </li>
+            <li> <a href="http://purl.org/dc/terms/title" title="http://purl.org/dc/terms/title">
                 <span>title</span> </a> </li>
+            <li> <a href="https://w3id.org/mod#acronym" title="https://w3id.org/mod#acronym">
+                <span>acronym</span> </a> </li>
+            <li> <a href="https://w3id.org/mod#designedForTask" title="https://w3id.org/mod#designedForTask">
+                <span>designedForTask</span> </a> </li>
+            <li> <a href="http://www.w3.org/2004/02/skos/core#editorialNote" title="http://www.w3.org/2004/02/skos/core#editorialNote">
+                <span>editorialNote</span> </a> </li>
           </ul>
-          <div class="entity" id="http://purl.org/dc/terms/conformsTo">
-            <h3>conforms to<sup class="type-ap" title="annotation property">ap</sup>
-              <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation
-                  Property ToC</a> </span> </h3>
-            <p> <strong>IRI:</strong> http://purl.org/dc/terms/conformsTo</p>
+          <div class="entity" id="http://www.w3.org/ns/dcat#contactPoint">
+            <h3>contactPoint<sup class="type-ep" title="external property">ep</sup>&nbsp;
+              <span class="backlink"><a href="#annotationproperties"></a> </span>
+            </h3>
+            <p> <strong>IRI:</strong> http://purl.org/dc/terms/description</p>
+            <div class="comment"> <span class="markdown">Identifies a
+                vcard:vCard that contains information on how to contact an agent
+                responsible for the dataset. We required that at least an email
+                is provided.</span> </div>
+          </div>
+          <div class="entity" id="http://www.w3.org/ns/dcat#dataset">
+            <h3>dataset<sup class="type-ep" title="external property">ep</sup>&nbsp;
+              <span class="backlink"><a href="#annotationproperties"></a> </span>
+            </h3>
+            <p> <strong>IRI:</strong> http://purl.org/dc/terms/description</p>
+            <div class="comment"> <span class="markdown">Identifies a
+                mod:SemanticArtefact listed in the catalog.</span> </div>
+          </div>
+          <div class="entity" id="http://www.w3.org/ns/dcat#distribution">
+            <h3>distribution<sup class="type-ep" title="external property">ep</sup>&nbsp;
+              <span class="backlink"><a href="#annotationproperties"></a> </span>
+            </h3>
+            <p> <strong>IRI:</strong> http://purl.org/dc/terms/description</p>
+            <div class="comment"> <span class="markdown">Identifies an
+                available dcat:Distribution of the dataset.</span> </div>
+          </div>
+          <div class="entity" id="http://www.w3.org/ns/dcat#downloadURL">
+            <h3>downloadURL<sup class="type-ep" title="external property">ep</sup>&nbsp;
+              <span class="backlink"><a href="#annotationproperties"></a> </span>
+            </h3>
+            <p> <strong>IRI:</strong> http://purl.org/dc/terms/description</p>
+            <div class="comment"> <span class="markdown">Identifies a URL that
+                can be used to download the distribution.</span> </div>
+          </div>
+          <div class="entity" id="http://www.w3.org/ns/dcat#keyword">
+            <h3>keyword<sup class="type-ep" title="external property">ep</sup>&nbsp;
+              <span class="backlink"><a href="#annotationproperties"></a> </span>
+            </h3>
+            <p> <strong>IRI:</strong> http://purl.org/dc/terms/description</p>
+            <div class="comment"> <span class="markdown">Determines a domain
+                (partially) described by the semantic artefact. Accepts
+                xsd:string and rdf:langString literals. E.g., the User Feedback
+                Ontology is described with the keywords 'online user feedback',
+                'software engineering', and 'requirements engineering'.</span> </div>
+          </div>
+          <div class="entity" id="http://www.w3.org/ns/dcat#landingPage">
+            <h3>landingPage<sup class="type-ep" title="external property">ep</sup>&nbsp;
+              <span class="backlink"><a href="#annotationproperties"></a> </span>
+            </h3>
+            <p> <strong>IRI:</strong> http://purl.org/dc/terms/description</p>
+            <div class="comment"> <span class="markdown">Identifies a web page
+                where one can access the dataset, its metadata, its
+                distributions, and additional information about it. E.g.,
+                https://www.model-a-platform.com is the landing page of the
+                Digital Platform Ontology.</span> </div>
+          </div>
+          <div class="entity" id="http://www.w3.org/ns/dcat#mediaType">
+            <h3>mediaType<sup class="type-ep" title="external property">ep</sup>&nbsp;
+              <span class="backlink"><a href="#annotationproperties"></a> </span>
+            </h3>
+            <p> <strong>IRI:</strong> http://purl.org/dc/terms/description</p>
+            <div class="comment"> <span class="markdown">Identifies the media
+                type of the distribution. Valid media types are only those
+                defined by IANA, such as
+                https://www.iana.org/assignments/media-types/application/json.
+                If there is no media type for the format of the distribution,
+                the type application/octet-stream must be used for binary files
+                and the type text/plain must be used for text files.</span> </div>
+          </div>
+          <div class="entity" id="http://www.w3.org/ns/dcat#theme">
+            <h3>theme<sup class="type-ep" title="external property">ep</sup>&nbsp;
+              <span class="backlink"><a href="#annotationproperties"></a> </span>
+            </h3>
+            <p> <strong>IRI:</strong> http://purl.org/dc/terms/description</p>
+            <div class="comment"> <span class="markdown">Identifies the central
+                theme of the semantic artefact according to a theme taxonomy. In
+                our catalog, the theme of an artefact must be a skos:Concept
+                from the LCC. E.g., 'Class S - Agriculture', 'Class T -
+                Technology'.</span> </div>
+          </div>
+          <div class="entity" id="http://www.w3.org/ns/dcat#themeTaxonomy">
+            <h3>themeTaxonomy<sup class="type-ep" title="external property">ep</sup>&nbsp;
+              <span class="backlink"><a href="#annotationproperties"></a> </span>
+            </h3>
+            <p> <strong>IRI:</strong> http://purl.org/dc/terms/description</p>
+            <div class="comment"> <span class="markdown">Identifies a knowledge
+                organization system used to classify the semantic artefacts in
+                the catalog. In our catalog, we use the Library of Congress
+                Classification (LCC) system, which exists as a
+                skos:ConceptScheme.</span> </div>
+          </div>
+          <div class="entity" id="http://purl.org/dc/terms/accessRights">
+            <h3>accessRights<sup class="type-ep" title="external property">ep</sup>&nbsp;
+              <span class="backlink"><a href="#annotationproperties"></a> </span>
+            </h3>
+            <p> <strong>IRI:</strong> http://purl.org/dc/terms/description</p>
+            <div class="comment"> <span class="markdown">Identifies a
+                dct:RightsStatement or a text concerning who and how the
+                resource can be accessed. E.g., the statement
+                http://publications.europa.eu/resource/authority/access-right/PUBLIC
+                informs that something is 'publicly accessible by everyone'.</span>
+            </div>
+          </div>
+          <div class="entity" id="http://purl.org/dc/terms/alternative">
+            <h3>alternative<sup class="type-ep" title="external property">ep</sup>&nbsp;
+              <span class="backlink"><a href="#annotationproperties"></a> </span>
+            </h3>
+            <p> <strong>IRI:</strong> http://purl.org/dc/terms/description</p>
+            <div class="comment"> <span class="markdown">Determines an
+                alternative title for the resource. Accepts xsd:string and
+                rdf:langString literals. E.g., "OntoUML/UFO Catalog"@en.</span>
+            </div>
+          </div>
+          <div class="entity" id="http://purl.org/dc/terms/bibliographicCitation">
+            <h3>bibliographicCitation<sup class="type-ep" title="external property">ep</sup>&nbsp;
+              <span class="backlink"><a href="#annotationproperties"></a> </span>
+            </h3>
+            <p> <strong>IRI:</strong> http://purl.org/dc/terms/description</p>
+            <div class="comment"> <span class="markdown">Determines a
+                bibliographic reference for the dataset in textual format.
+                Accepts xsd:string and rdf:langString literals. E.g., "Weigand,
+                H., Johannesson, P., &amp; Andersson, B. (2021). An artifact
+                ontology for design science research. Data &amp; Knowledge
+                Engineering, 133."@en</span> </div>
+          </div>
+          <div class="entity" id="http://purl.org/dc/terms/contributor">
+            <h3>contributor<sup class="type-ep" title="external property">ep</sup>&nbsp;
+              <span class="backlink"><a href="#annotationproperties"></a> </span>
+            </h3>
+            <p> <strong>IRI:</strong> http://purl.org/dc/terms/description</p>
+            <div class="comment"> <span class="markdown">Identifies a
+                foaf:Agent who contributed to the development of the resource.</span>
+            </div>
           </div>
           <div class="entity" id="http://purl.org/dc/terms/creator">
-            <h3>creator<sup class="type-ap" title="annotation property">ap</sup>
-              <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation
-                  Property ToC</a> </span> </h3>
-            <p> <strong>IRI:</strong> http://purl.org/dc/terms/creator</p>
+            <h3>creator<sup class="type-ep" title="external property">ep</sup>&nbsp;
+              <span class="backlink"><a href="#annotationproperties"></a> </span>
+            </h3>
+            <p> <strong>IRI:</strong> http://purl.org/dc/terms/description</p>
+            <div class="comment"> <span class="markdown">Identifies a
+                foaf:Agent who contributed to the creation of the resource.</span>
+            </div>
           </div>
           <div class="entity" id="http://purl.org/dc/terms/description">
-            <h3>description<sup class="type-ap" title="annotation property">ap</sup>
-              <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation
-                  Property ToC</a> </span> </h3>
+            <h3>description<sup class="type-ep" title="external property">ep</sup>&nbsp;
+              <span class="backlink"><a href="#annotationproperties"></a> </span>
+            </h3>
             <p> <strong>IRI:</strong> http://purl.org/dc/terms/description</p>
             <div class="comment"> <span class="markdown">Determines a free-text
                 account of the resource. Accepts xsd:string and rdf:langString
                 literals.</span> </div>
           </div>
-          <div class="entity" id="http://xmlns.com/foaf/0.1/homepage">
-            <h3>homepage<sup class="type-ap" title="annotation property">ap</sup>
-              <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation
-                  Property ToC</a> </span> </h3>
-            <p> <strong>IRI:</strong> http://xmlns.com/foaf/0.1/homepage</p>
-          </div>
-          <div class="entity" id="http://purl.org/dc/terms/identifier">
-            <h3>identifier<sup class="type-ap" title="annotation property">ap</sup>
-              <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation
-                  Property ToC</a> </span> </h3>
-            <p> <strong>IRI:</strong> http://purl.org/dc/terms/identifier</p>
-          </div>
-          <div class="entity" id="http://purl.org/dc/terms/isReferencedBy">
-            <h3>is referenced by<sup class="type-ap" title="annotation property">ap</sup>
-              <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation
-                  Property ToC</a> </span> </h3>
-            <p> <strong>IRI:</strong> http://purl.org/dc/terms/isReferencedBy</p>
+          <div class="entity" id="http://purl.org/dc/terms/format">
+            <h3>format<sup class="type-ep" title="external property">ep</sup>&nbsp;
+              <span class="backlink"><a href="#annotationproperties"></a> </span>
+            </h3>
+            <p> <strong>IRI:</strong> http://purl.org/dc/terms/description</p>
+            <div class="comment"> <span class="markdown">Identifies the format
+                of the distribution. This property should be used to complement
+                dcat:mediaType when the distribution format is not listed by
+                IANA. We limit the use of this property with URIs so that more
+                context about how to manipulate a distribution can be provided.
+                E.g., https://www.file-extension.info/format/vpp.</span> </div>
           </div>
           <div class="entity" id="http://purl.org/dc/terms/issued">
-            <h3>issued<sup class="type-ap" title="annotation property">ap</sup>
-              <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation
-                  Property ToC</a> </span> </h3>
-            <p> <strong>IRI:</strong> http://purl.org/dc/terms/issued</p>
+            <h3>issued<sup class="type-ep" title="external property">ep</sup>&nbsp;
+              <span class="backlink"><a href="#annotationproperties"></a> </span>
+            </h3>
+            <p> <strong>IRI:</strong> http://purl.org/dc/terms/description</p>
             <div class="comment"> <span class="markdown">Determines when the
                 resource was created. Accepts literals of the types
                 xsd:dateTime, xsd:date, xsd:gYearMonth, and xsd:gYear. E.g.,
@@ -807,130 +840,114 @@ $(function(){
                 documents, we recommend using the publication date from the
                 first one.</span> </div>
           </div>
-          <div class="entity" id="http://www.w3.org/ns/dcat#keyword">
-            <h3>keyword<sup class="type-ap" title="annotation property">ap</sup>
-              <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation
-                  Property ToC</a> </span> </h3>
-            <p> <strong>IRI:</strong> http://www.w3.org/ns/dcat#keyword</p>
-          </div>
-          <div class="entity" id="http://www.w3.org/ns/dcat#landingPage">
-            <h3>landing page<sup class="type-ap" title="annotation property">ap</sup>
-              <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation
-                  Property ToC</a> </span> </h3>
-            <p> <strong>IRI:</strong> http://www.w3.org/ns/dcat#landingPage</p>
-            <div class="comment"> <span class="markdown">Identifies a web page
-                where one can access the dataset, its metadata, its
-                distributions, and additional information about it. E.g.,
-                https://www.model-a-platform.com is the landing page of the
-                Digital Platform Ontology.</span> </div>
-          </div>
           <div class="entity" id="http://purl.org/dc/terms/language">
-            <h3>language<sup class="type-ap" title="annotation property">ap</sup>
-              <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation
-                  Property ToC</a> </span> </h3>
-            <p> <strong>IRI:</strong> http://purl.org/dc/terms/language</p>
+            <h3>language<sup class="type-ep" title="external property">ep</sup>&nbsp;
+              <span class="backlink"><a href="#annotationproperties"></a> </span>
+            </h3>
+            <p> <strong>IRI:</strong> http://purl.org/dc/terms/description</p>
             <div class="comment"> <span class="markdown">Determines a language
                 in which the lexical labels of the semantic artefact are
                 written. We require the use of values listed in the IANA
                 Language Sub Tag Registry. E.g., 'en', 'pt'.</span> </div>
           </div>
           <div class="entity" id="http://purl.org/dc/terms/license">
-            <h3>license<sup class="type-ap" title="annotation property">ap</sup>
-              <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation
-                  Property ToC</a> </span> </h3>
-            <p> <strong>IRI:</strong> http://purl.org/dc/terms/license</p>
+            <h3>license<sup class="type-ep" title="external property">ep</sup>&nbsp;
+              <span class="backlink"><a href="#annotationproperties"></a> </span>
+            </h3>
+            <p> <strong>IRI:</strong> http://purl.org/dc/terms/description</p>
             <div class="comment"> <span class="markdown">Identifies a legal
                 document under which the resource is made available. E.g.,
                 https://creativecommons.org/licenses/by/4.0/.</span> </div>
           </div>
-          <div class="entity" id="http://xmlns.com/foaf/0.1/mbox">
-            <h3>mbox<sup class="type-ap" title="annotation property">ap</sup> <span
-                class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation
-                  Property ToC</a> </span> </h3>
-            <p> <strong>IRI:</strong> http://xmlns.com/foaf/0.1/mbox</p>
-          </div>
-          <div class="entity" id="http://xmlns.com/foaf/0.1/member">
-            <h3>member<sup class="type-ap" title="annotation property">ap</sup>
-              <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation
-                  Property ToC</a> </span> </h3>
-            <p> <strong>IRI:</strong> http://xmlns.com/foaf/0.1/member</p>
-          </div>
           <div class="entity" id="http://purl.org/dc/terms/modified">
-            <h3>modified<sup class="type-ap" title="annotation property">ap</sup>
-              <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation
-                  Property ToC</a> </span> </h3>
-            <p> <strong>IRI:</strong> http://purl.org/dc/terms/modified</p>
+            <h3>modified<sup class="type-ep" title="external property">ep</sup>&nbsp;
+              <span class="backlink"><a href="#annotationproperties"></a> </span>
+            </h3>
+            <p> <strong>IRI:</strong> http://purl.org/dc/terms/description</p>
             <div class="comment"> <span class="markdown">Determines when the
                 resource was last modified. Accepts literals of the types
                 xsd:dateTime, xsd:date, xsd:gYearMonth, and xsd:gYear. When
                 cataloging a model based on documents, we recommend using the
                 publication date from the latest one.</span> </div>
           </div>
-          <div class="entity" id="http://xmlns.com/foaf/0.1/name">
-            <h3>name<sup class="type-ap" title="annotation property">ap</sup> <span
-                class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation
-                  Property ToC</a> </span> </h3>
-            <p> <strong>IRI:</strong> http://xmlns.com/foaf/0.1/name</p>
-          </div>
-          <div class="entity" id="http://purl.org/vocab/vann/preferredNamespacePrefix">
-            <h3>preferred namespace prefix<sup class="type-ap" title="annotation property">ap</sup>
-              <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation
-                  Property ToC</a> </span> </h3>
-            <p> <strong>IRI:</strong>
-              http://purl.org/vocab/vann/preferredNamespacePrefix</p>
-          </div>
-          <div class="entity" id="http://purl.org/vocab/vann/preferredNamespaceUri">
-            <h3>preferred namespace uri<sup class="type-ap" title="annotation property">ap</sup>
-              <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation
-                  Property ToC</a> </span> </h3>
-            <p> <strong>IRI:</strong>
-              http://purl.org/vocab/vann/preferredNamespaceUri</p>
-          </div>
           <div class="entity" id="http://purl.org/dc/terms/publisher">
-            <h3>publisher<sup class="type-ap" title="annotation property">ap</sup>
-              <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation
-                  Property ToC</a> </span> </h3>
-            <p> <strong>IRI:</strong> http://purl.org/dc/terms/publisher</p>
+            <h3>publisher<sup class="type-ep" title="external property">ep</sup>&nbsp;
+              <span class="backlink"><a href="#annotationproperties"></a> </span>
+            </h3>
+            <p> <strong>IRI:</strong> http://purl.org/dc/terms/description</p>
             <div class="comment"> <span class="markdown">Identifies the
                 foaf:Agent who added the resource to the catalog. The publisher
                 does not need to have created or contributed to the resource.</span>
             </div>
           </div>
-          <div class="entity" id="http://www.w3.org/2004/02/skos/core#scopeNote">
-            <h3>scope note<sup class="type-ap" title="annotation property">ap</sup>
-              <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation
-                  Property ToC</a> </span> </h3>
-            <p> <strong>IRI:</strong>
-              http://www.w3.org/2004/02/skos/core#scopeNote</p>
+          <div class="entity" id="http://purl.org/dc/terms/source">
+            <h3>source<sup class="type-ep" title="external property">ep</sup>&nbsp;
+              <span class="backlink"><a href="#annotationproperties"></a> </span>
+            </h3>
+            <p> <strong>IRI:</strong> http://purl.org/dc/terms/description</p>
+            <div class="comment"> <span class="markdown">Identifies resources
+                that contain, present, or significantly influenced the
+                development of the semantic artefact. We recommend the use of
+                persistent and resolvable identifiers to refer to these
+                resources, such as the Digital Object Identifier (DOI) or DBLP's
+                URI. E.g., https://doi.org/10.3233/AO-150150,
+                https://dblp.org/rec/journals/ao/Morales-Ramirez15.</span> </div>
           </div>
           <div class="entity" id="http://purl.org/dc/terms/title">
-            <h3>title<sup class="type-ap" title="annotation property">ap</sup> <span
-                class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation
-                  Property ToC</a> </span> </h3>
-            <p> <strong>IRI:</strong> http://purl.org/dc/terms/title</p>
+            <h3>title<sup class="type-ep" title="external property">ep</sup>&nbsp;
+              <span class="backlink"><a href="#annotationproperties"></a> </span>
+            </h3>
+            <p> <strong>IRI:</strong> http://purl.org/dc/terms/description</p>
             <div class="comment"> <span class="markdown">Determines a title for
                 the resource. Accepts xsd:string and rdf:langString literals.
                 E.g., "Common Ontology of Value and Risk"@en, "FAIR Model
                 Catalog for Ontology-Driven Conceptual Modeling Research"@en.
                 There must be at most one title per language.</span> </div>
           </div>
+          <div class="entity" id="https://w3id.org/mod#acronym">
+            <h3>acronym<sup class="type-ep" title="external property">ep</sup>&nbsp;
+              <span class="backlink"><a href="#annotationproperties"></a> </span>
+            </h3>
+            <p> <strong>IRI:</strong> http://purl.org/dc/terms/description</p>
+            <div class="comment"> <span class="markdown">Determines an acronym
+                one can use to refer to the semantic artefact. Accepts only
+                xsd:string literals. E.g., 'RDBS-O', 'COVER', 'ROT'.</span> </div>
+          </div>
+          <div class="entity" id="https://w3id.org/mod#designedForTask">
+            <h3>designedForTask<sup class="type-ep" title="external property">ep</sup>&nbsp;
+              <span class="backlink"><a href="#annotationproperties"></a> </span>
+            </h3>
+            <p> <strong>IRI:</strong> http://purl.org/dc/terms/description</p>
+            <div class="comment"> <span class="markdown">Identifies a goal that
+                motivated the development of the semantic artefact.</span> </div>
+          </div>
+          <div class="entity" id="http://www.w3.org/2004/02/skos/core#editorialNote">
+            <h3>editorialNote<sup class="type-ep" title="external property">ep</sup>&nbsp;
+              <span class="backlink"><a href="#annotationproperties"></a> </span>
+            </h3>
+            <p> <strong>IRI:</strong> http://purl.org/dc/terms/description</p>
+            <div class="comment"> <span class="markdown">Determines a general
+                note relative to the resource documentation process. Accepts
+                xsd:string and rdf:langString literals. E.g., "The model was
+                originally designed in Portuguese and translated by the
+                publisher."@en.</span> </div>
+          </div>
         </div>
         <div id="legend">
-          <h2><a id="mozTocId890140" class="mozTocH2"></a>Legend <span class="backlink">
-              back to <a href="#toc">ToC</a></span></h2>
+          <h2>Legend<span class="backlink"></span></h2>
           <div class="entity"> <sup class="type-c" title="Classes">c</sup>:
             Classes <br>
             <sup class="type-op" title="Object Properties">op</sup>: Object
             Properties <br>
             <sup class="type-dp" title="Data Properties">dp</sup>: Data
             Properties <br>
-          </div>
+            <sup class="type-ep" title="External Properties">ep</sup>: External
+            Properties </div>
         </div>
       </div>
       <!--REFERENCES SECTION-->
       <div id="acknowledgments">
-        <h2 id="ack"><a id="mozTocId881677" class="mozTocH2"></a>Acknowledgments
-          <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+        <h2 id="ack">Acknowledgments<span class="backlink"></span></h2>
         <p> The authors would like to thank <a href="http://www.essepuntato.it/">Silvio
             Peroni</a> for developing <a href="http://www.essepuntato.it/lode">LODE</a>,
           a Live OWL Documentation Environment, which is used for representing
