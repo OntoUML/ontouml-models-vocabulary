@@ -93,30 +93,23 @@ $(function(){
               Netherlands</a>)<a href="mailto:p.p.favatobarcelos@uwente.nl">✉</a></dd>
           <dd><a href="https://orcid.org/0000-0003-3385-4769">Mattia Fumagalli</a>,
             (<a href="https://www.inf.unibz.it/krdb/">KRDB Research Centre for
-              Knowledge and Data, Free University of Bozen-Bolzano, Italy</a>)<a
-
+              Knowledge and Data, Free University of Bozen-Bolzano, Italy</a>)<a
               href="mailto:mattia.fumagalli@unibz.it">✉</a></dd>
           <dt>Publisher:</dt>
           <dd><a href="https://www.utwente.nl/en/eemcs/scs/">Semantics,
               Cybersecurity &amp; Services (SCS), University of Twente, the
               Netherlands</a></dd>
           <dt>Download serialization:</dt>
-          <dd><span><a href="ontology.jsonld" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg"
-
-                  alt="JSON-LD"></a> </span><span><a href="ontology.owl" target="_blank"><img
-
+          <dd><span><a href="ontology.jsonld" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg"
+                  alt="JSON-LD"></a> </span><span><a href="ontology.owl" target="_blank"><img
                   src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML"></a>
-            </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg"
-
-                  alt="N-Triples"></a> </span><span><a href="ontology.ttl" target="_blank"><img
-
+            </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg"
+                  alt="N-Triples"></a> </span><span><a href="ontology.ttl" target="_blank"><img
                   src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL"></a>
             </span></dd>
           <dt>License:</dt>
-          <dd><a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank"><img
-
-                src="https://img.shields.io/badge/License-https://creativecommons.org/licenses/by_sa/4.0-blue.svg"
-
+          <dd><a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank"><img
+                src="https://img.shields.io/badge/License-https://creativecommons.org/licenses/by_sa/4.0-blue.svg"
                 alt="https://creativecommons.org/licenses/by-sa/4.0"></a> </dd>
           <!-- <dt>Evaluation:</dt><dd><a href="OOPSevaluation/oopsEval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd> --><dt>Cite
             as:</dt>
@@ -238,8 +231,7 @@ $(function(){
         <span class="markdown"> This vocabulary has the following classes and
           properties.</span>
         <h4>Classes</h4>
-        <ul xmlns:extra="https://w3id.org/extra#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-
+        <ul xmlns:extra="https://w3id.org/extra#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           class="hlist">
           <li> <a href="#MetadataElement" title="https://w3id.org/ontouml-models/vocabulary#MetadataElement">Metadata
               Element</a> </li>
@@ -253,8 +245,7 @@ $(function(){
               Type</a> </li>
         </ul>
         <h4>Object Properties</h4>
-        <ul xmlns:extra="https://w3id.org/extra#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-
+        <ul xmlns:extra="https://w3id.org/extra#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           class="hlist">
           <li> <a href="#conformsToSchema" title="https://w3id.org/ontouml-models/vocabulary#conformsToSchema">conforms
               to schema</a> </li>
@@ -266,8 +257,7 @@ $(function(){
               style</a> </li>
         </ul>
         <h4>Data Properties</h4>
-        <ul xmlns:extra="https://w3id.org/extra#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-
+        <ul xmlns:extra="https://w3id.org/extra#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           class="hlist">
           <li> <a href="#isComplete" title="https://w3id.org/ontouml-models/vocabulary#isComplete">is
               complete</a> </li>
@@ -275,8 +265,7 @@ $(function(){
               URL</a> </li>
         </ul>
         <h4>Annotation Properties</h4>
-        <ul xmlns:extra="https://w3id.org/extra#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-
+        <ul xmlns:extra="https://w3id.org/extra#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           class="hlist">
           <li> <a href="#http://purl.org/dc/terms/conformsTo" title="http://purl.org/dc/terms/conformsTo">
               <span>conforms to</span> </a> </li>
@@ -325,8 +314,7 @@ $(function(){
         <h2 id="desc" class="list"><a id="mozTocId980256" class="mozTocH2"></a>The
           OntoUML/UFO Catalog Metadata<span class="backlink">back to <a href="#toc">ToC</a></span></h2>
         <figure>
-          <p align="center"><img src="https://raw.githubusercontent.com/OntoUML/ontouml-models/master/documentation/metadata-schema.png"
-
+          <p align="center"><img src="https://raw.githubusercontent.com/OntoUML/ontouml-models/master/documentation/metadata-schema.png"
               width="800"> </p>
           <figcaption align="center">Figure 1 - The OntoUML/UFO Catalog Schema</figcaption></figure>
         <p>The catalog’s schema, depicted in the image above, reuses classes and
@@ -363,8 +351,7 @@ $(function(){
             back to <a href="#toc">ToC</a></span></h2>
         This section provides details for each class and property defined by
         OntoUML/UFO Catalog Metadata Vocabulary.
-        <div xmlns:extra="https://w3id.org/extra#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-
+        <div xmlns:extra="https://w3id.org/extra#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           id="classes">
           <h3 id="classes-headline" class="list">Classes</h3>
           <ul class="hlist">
@@ -380,8 +367,7 @@ $(function(){
                 Type</a> </li>
           </ul>
           <div class="entity" id="MetadataElement">
-            <h3>Metadata Element<sup class="type-c" title="class">c</sup> <span
-
+            <h3>Metadata Element<sup class="type-c" title="class">c</sup> <span
                 class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class
                   ToC</a> </span> </h3>
             <p> <strong>IRI:</strong>
@@ -398,8 +384,7 @@ $(function(){
               <dd> <a href="#OntologyDevelopmentContext" title="https://w3id.org/ontouml-models/vocabulary#OntologyDevelopmentContext">Ontology
                   Development Context</a> <sup class="type-c" title="class">c</sup>,
                 <a href="#OntologyPurpose" title="https://w3id.org/ontouml-models/vocabulary#OntologyPurpose">Ontology
-                  Purpose</a> <sup class="type-c" title="class">c</sup>, <a href="#OntologyRepresentationStyle"
-
+                  Purpose</a> <sup class="type-c" title="class">c</sup>, <a href="#OntologyRepresentationStyle"
                   title="https://w3id.org/ontouml-models/vocabulary#OntologyRepresentationStyle">Ontology
                   Representation Style</a> <sup class="type-c" title="class">c</sup>,
                 <a href="#OntologyType" title="https://w3id.org/ontouml-models/vocabulary#OntologyType">Ontology
@@ -437,8 +422,7 @@ $(function(){
             </dl>
           </div>
           <div class="entity" id="OntologyPurpose">
-            <h3>Ontology Purpose<sup class="type-c" title="class">c</sup> <span
-
+            <h3>Ontology Purpose<sup class="type-c" title="class">c</sup> <span
                 class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class
                   ToC</a> </span> </h3>
             <p> <strong>IRI:</strong>
@@ -541,8 +525,7 @@ $(function(){
             </dl>
           </div>
         </div>
-        <div xmlns:extra="https://w3id.org/extra#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-
+        <div xmlns:extra="https://w3id.org/extra#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           id="objectproperties">
           <h3 id="properties" class="list">Object Properties</h3>
           <ul class="hlist">
@@ -573,21 +556,18 @@ $(function(){
             <div class="description">
               <dl>
                 <dt>has domain</dt>
-                <dd> <a href="http://www.w3.org/ns/dcat#Distribution" target="_blank"
-
+                <dd> <a href="http://www.w3.org/ns/dcat#Distribution" target="_blank"
                     title="http://www.w3.org/ns/dcat#Distribution">distribution</a>
                   <sup class="type-c" title="class">c</sup> </dd>
                 <dt>has range</dt>
-                <dd> <a href="http://www.w3.org/2000/01/rdf-schema#Resource" target="_blank"
-
+                <dd> <a href="http://www.w3.org/2000/01/rdf-schema#Resource" target="_blank"
                     title="http://www.w3.org/2000/01/rdf-schema#Resource">resource</a>
                   <sup class="type-c" title="class">c</sup> </dd>
               </dl>
             </div>
           </div>
           <div class="entity" id="context">
-            <h3>context<sup class="type-op" title="object property">op</sup> <span
-
+            <h3>context<sup class="type-op" title="object property">op</sup> <span
                 class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object
                   Property ToC</a> </span> </h3>
             <p> <strong>IRI:</strong>
@@ -602,8 +582,7 @@ $(function(){
             <div class="description">
               <dl>
                 <dt>has domain</dt>
-                <dd> <a href="https://w3id.org/mod#SemanticArtefact" target="_blank"
-
+                <dd> <a href="https://w3id.org/mod#SemanticArtefact" target="_blank"
                     title="https://w3id.org/mod#SemanticArtefact">semantic
                     artefact</a> <sup class="type-c" title="class">c</sup> </dd>
                 <dt>has range</dt>
@@ -629,8 +608,7 @@ $(function(){
             <div class="description">
               <dl>
                 <dt>has domain</dt>
-                <dd> <a href="https://w3id.org/mod#SemanticArtefact" target="_blank"
-
+                <dd> <a href="https://w3id.org/mod#SemanticArtefact" target="_blank"
                     title="https://w3id.org/mod#SemanticArtefact">semantic
                     artefact</a> <sup class="type-c" title="class">c</sup> </dd>
                 <dt>has range</dt>
@@ -655,8 +633,7 @@ $(function(){
             <div class="description">
               <dl>
                 <dt>has domain</dt>
-                <dd> <a href="https://w3id.org/mod#SemanticArtefact" target="_blank"
-
+                <dd> <a href="https://w3id.org/mod#SemanticArtefact" target="_blank"
                     title="https://w3id.org/mod#SemanticArtefact">semantic
                     artefact</a> <sup class="type-c" title="class">c</sup> </dd>
                 <dt>has range</dt>
@@ -667,8 +644,7 @@ $(function(){
             </div>
           </div>
         </div>
-        <div xmlns:extra="https://w3id.org/extra#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-
+        <div xmlns:extra="https://w3id.org/extra#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           id="dataproperties">
           <h3 id="dataproperties-headline" class="list">Data Properties</h3>
           <ul class="hlist">
@@ -678,8 +654,7 @@ $(function(){
                 URL</a> </li>
           </ul>
           <div class="entity" id="isComplete">
-            <h3>is complete<sup class="type-dp" title="data property">dp</sup> <span
-
+            <h3>is complete<sup class="type-dp" title="data property">dp</sup> <span
                 class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data
                   Property ToC</a> </span> </h3>
             <p> <strong>IRI:</strong>
@@ -697,21 +672,18 @@ $(function(){
             <div class="description">
               <dl>
                 <dt>has domain</dt>
-                <dd> <a href="http://www.w3.org/ns/dcat#Distribution" target="_blank"
-
+                <dd> <a href="http://www.w3.org/ns/dcat#Distribution" target="_blank"
                     title="http://www.w3.org/ns/dcat#Distribution">distribution</a>
                   <sup class="type-c" title="class">c</sup> </dd>
                 <dt>has range</dt>
-                <dd> <a href="http://www.w3.org/2001/XMLSchema#boolean" target="_blank"
-
+                <dd> <a href="http://www.w3.org/2001/XMLSchema#boolean" target="_blank"
                     title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
                 </dd>
               </dl>
             </div>
           </div>
           <div class="entity" id="storageUrl">
-            <h3>storage URL<sup class="type-dp" title="data property">dp</sup> <span
-
+            <h3>storage URL<sup class="type-dp" title="data property">dp</sup> <span
                 class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data
                   Property ToC</a> </span> </h3>
             <p> <strong>IRI:</strong>
@@ -727,21 +699,17 @@ $(function(){
             <div class="description">
               <dl>
                 <dt>has domain</dt>
-                <dd> <a href="http://www.w3.org/ns/dcat#Dataset" target="_blank"
-
-                    title="http://www.w3.org/ns/dcat#Dataset">dataset</a> <sup
-
+                <dd> <a href="http://www.w3.org/ns/dcat#Dataset" target="_blank"
+                    title="http://www.w3.org/ns/dcat#Dataset">dataset</a> <sup
                     class="type-c" title="class">c</sup> </dd>
                 <dt>has range</dt>
-                <dd> <a href="http://www.w3.org/2001/XMLSchema#anyURI" target="_blank"
-
+                <dd> <a href="http://www.w3.org/2001/XMLSchema#anyURI" target="_blank"
                     title="http://www.w3.org/2001/XMLSchema#anyURI">anyURI</a> </dd>
               </dl>
             </div>
           </div>
         </div>
-        <div xmlns:extra="https://w3id.org/extra#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-
+        <div xmlns:extra="https://w3id.org/extra#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           id="annotationproperties">
           <h3 id="annotationproperties" class="list">Annotation Properties</h3>
           <ul class="hlist">
@@ -775,8 +743,7 @@ $(function(){
                 <span>modified</span> </a> </li>
             <li> <a href="#http://xmlns.com/foaf/0.1/name" title="http://xmlns.com/foaf/0.1/name">
                 <span>name</span> </a> </li>
-            <li> <a href="#http://purl.org/vocab/vann/preferredNamespacePrefix"
-
+            <li> <a href="#http://purl.org/vocab/vann/preferredNamespacePrefix"
                 title="http://purl.org/vocab/vann/preferredNamespacePrefix"> <span>preferred
                   namespace prefix</span> </a> </li>
             <li> <a href="#http://purl.org/vocab/vann/preferredNamespaceUri" title="http://purl.org/vocab/vann/preferredNamespaceUri">
@@ -877,8 +844,7 @@ $(function(){
                 https://creativecommons.org/licenses/by/4.0/.</span> </div>
           </div>
           <div class="entity" id="http://xmlns.com/foaf/0.1/mbox">
-            <h3>mbox<sup class="type-ap" title="annotation property">ap</sup> <span
-
+            <h3>mbox<sup class="type-ap" title="annotation property">ap</sup> <span
                 class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation
                   Property ToC</a> </span> </h3>
             <p> <strong>IRI:</strong> http://xmlns.com/foaf/0.1/mbox</p>
@@ -901,8 +867,7 @@ $(function(){
                 publication date from the latest one.</span> </div>
           </div>
           <div class="entity" id="http://xmlns.com/foaf/0.1/name">
-            <h3>name<sup class="type-ap" title="annotation property">ap</sup> <span
-
+            <h3>name<sup class="type-ap" title="annotation property">ap</sup> <span
                 class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation
                   Property ToC</a> </span> </h3>
             <p> <strong>IRI:</strong> http://xmlns.com/foaf/0.1/name</p>
@@ -939,8 +904,7 @@ $(function(){
               http://www.w3.org/2004/02/skos/core#scopeNote</p>
           </div>
           <div class="entity" id="http://purl.org/dc/terms/title">
-            <h3>title<sup class="type-ap" title="annotation property">ap</sup> <span
-
+            <h3>title<sup class="type-ap" title="annotation property">ap</sup> <span
                 class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation
                   Property ToC</a> </span> </h3>
             <p> <strong>IRI:</strong> http://purl.org/dc/terms/title</p>
