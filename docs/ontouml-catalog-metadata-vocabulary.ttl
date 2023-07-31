@@ -1,0 +1,391 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix ocmv: <https://w3id.org/ontouml-models/vocabulary#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@base <https://w3id.org/ontouml-models/vocabulary> .
+
+#################################################################
+#    Metadata
+#################################################################
+
+<https://w3id.org/ontouml-models/vocabulary> rdf:type owl:Ontology , dct:Standard ;
+
+################################################################# VERSIONING
+
+                                              owl:versionIRI <https://w3id.org/ontouml-models/vocabulary/v1.1.0> ;
+                                              owl:versionInfo "1.1.0"@en ;
+                                              owl:priorVersion <https://w3id.org/ontouml-models/vocabulary/v1.0.0> ;
+                                              dct:issued "2022-04-03"^^xsd:date ;
+                                              dct:modified "2023-07-28"^^xsd:date ;
+
+################################################################# IDENTIFICATION                                              
+                                              
+                                              dct:title "OntoUML/UFO Catalog Metadata Vocabulary"@en ;
+                                              dct:description "Specification of the metadata used to describe models in the OntoUML/UFO Catalog."@en ;
+                                              dct:identifier "https://w3id.org/ontouml-models/vocabulary"^^xsd:anyURI ;
+                                              dct:license <https://creativecommons.org/licenses/by-sa/4.0> ;
+                                              dct:conformsTo <http://www.w3.org/ns/dcat#> ;
+                                              dcat:landingPage <https://w3id.org/ontouml-models/vocabulary/git> ;
+                                              foaf:homepage <https://w3id.org/ontouml-models/vocabulary/docs> ;
+                                              vann:preferredNamespacePrefix "ocmv"@en ;
+                                              vann:preferredNamespaceUri "https://w3id.org/ontouml-models/vocabulary#"^^xsd:anyURI ;
+                                              dct:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+                                              dct:isReferencedBy <https://doi.org/10.1007/978-3-031-17995-2_1> ;
+                                              
+                                              dcat:keyword "Metadata"@en ,
+                                                           "OntoUML/UFO Catalog"@en ,
+                                                           "Ontology-Driven Conceptual Modeling"@en ;
+
+################################################################# AUTHORSHIP
+
+                            dct:publisher <https://www.utwente.nl/en/eemcs/scs/> ;
+                            dct:creator <https://orcid.org/0000-0002-5385-5761> ,
+                                        <https://orcid.org/0000-0003-2528-3118> ,
+                                        <https://orcid.org/0000-0003-2736-7817> ,
+                                        <https://orcid.org/0000-0003-3385-4769> .
+
+<https://www.inf.unibz.it/krdb/> rdf:type foaf:Organization ;
+                                 foaf:name "KRDB Research Centre for Knowledge and Data, Free University of Bozen-Bolzano, Italy" ;
+                                 foaf:homepage "https://www.inf.unibz.it/krdb/"^^xsd:anyURI ;
+                                 foaf:member <https://orcid.org/0000-0003-3385-4769> .
+
+<https://www.utwente.nl/en/eemcs/scs/> rdf:type foaf:Organization ;
+                                       foaf:name "Semantics, Cybersecurity & Services (SCS), University of Twente, the Netherlands" ;
+                                       foaf:homepage "https://www.utwente.nl/en/eemcs/scs/"^^xsd:anyURI ;
+                                       foaf:member <https://orcid.org/0000-0002-5385-5761> ,
+                                                   <https://orcid.org/0000-0003-2528-3118> ,
+                                                   <https://orcid.org/0000-0003-2736-7817> .
+
+<https://orcid.org/0000-0003-2528-3118> foaf:name "Claudenir M. Fonseca" ;
+                                        foaf:mbox "c.moraisfonseca@utwente.nl" .
+<https://orcid.org/0000-0003-3385-4769> foaf:name "Mattia Fumagalli" ;
+                                        foaf:mbox "mattia.fumagalli@unibz.it" .
+<https://orcid.org/0000-0003-2736-7817> foaf:name "Pedro Paulo Favato Barcelos" ;
+                                        foaf:mbox "p.p.favatobarcelos@uwente.nl" .
+<https://orcid.org/0000-0002-5385-5761> foaf:name "Tiago Prince Sales" ;
+                                        foaf:mbox "t.princesales@utwente.nl" .
+
+
+#################################################################
+#    Externally Defined Properties
+#################################################################
+
+# All externally defined properties are here commented to indicate their specific usage in the context of the OntoUML/UFO Catalog.
+
+dcat:contactPoint rdfs:comment "Identifies a vcard:vCard that contains information on how to contact an agent responsible for the dataset. We required that at least an email is provided."@en .
+
+dcat:dataset rdfs:comment "Identifies a mod:SemanticArtefact listed in the catalog."@en .
+
+dcat:distribution rdfs:comment "Identifies an available dcat:Distribution of the dataset."@en .
+
+dcat:downloadURL rdfs:comment "Identifies a URL that can be used to download the distribution."@en .
+
+dcat:keyword rdfs:comment "Determines a domain (partially) described by the semantic artefact. Accepts xsd:string and rdf:langString literals. E.g., the User Feedback Ontology is described with the keywords 'online user feedback', 'software engineering', and 'requirements engineering'."@en .
+
+dcat:landingPage rdfs:comment "Identifies a web page where one can access the dataset, its metadata, its distributions, and additional information about it. E.g., https://www.model-a-platform.com is the landing page of the Digital Platform Ontology."@en .
+
+dcat:mediaType rdfs:comment "Identifies the media type of the distribution. Valid media types are only those defined by IANA, such as https://www.iana.org/assignments/media-types/application/json. If there is no media type for the format of the distribution, the type application/octet-stream must be used for binary files and the type text/plain must be used for text files."@en .
+
+dcat:theme rdfs:comment "Identifies the central theme of the semantic artefact according to a theme taxonomy. In our catalog, the theme of an artefact must be a skos:Concept from the LCC. E.g., 'Class S - Agriculture', 'Class T - Technology'."@en .
+
+dcat:themeTaxonomy rdfs:comment "Identifies a knowledge organization system used to classify the semantic artefacts in the catalog. In our catalog, we use the Library of Congress Classification (LCC) system, which exists as a skos:ConceptScheme."@en .
+
+dct:accessRights rdfs:comment "Identifies a dct:RightsStatement or a text concerning who and how the resource can be accessed. E.g., the statement http://publications.europa.eu/resource/authority/access-right/PUBLIC informs that something is 'publicly accessible by everyone'."@en .
+
+dct:alternative rdfs:comment "Determines an alternative title for the resource. Accepts xsd:string and rdf:langString literals. E.g., 'OntoUML/UFO Catalog'@en."@en .
+
+dct:bibliographicCitation rdfs:comment "Determines a bibliographic reference for the dataset in textual format. Accepts xsd:string and rdf:langString literals. E.g., \"Weigand, H., Johannesson, P., & Andersson, B. (2021). An artifact ontology for design science research. Data & Knowledge Engineering, 133.\"@en"@en .
+
+dct:contributor rdfs:comment "Identifies a foaf:Agent who contributed to the development of the resource."@en .
+
+dct:creator rdfs:comment "Identifies a foaf:Agent who contributed to the creation of the resource."@en .
+
+dct:description rdfs:comment "Determines a free-text account of the resource. Accepts xsd:string and rdf:langString literals."@en .
+
+dct:format rdfs:comment "Identifies the format of the distribution. This property should be used to complement dcat:mediaType when the distribution format is not listed by IANA. We limit the use of this property with URIs so that more context about how to manipulate a distribution can be provided. E.g., https://www.file-extension.info/format/vpp."@en .
+
+dct:issued rdfs:comment "Determines when the resource was created. Accepts literals of the types xsd:dateTime, xsd:date, xsd:gYearMonth, and xsd:gYear. E.g., \"2018\"string^string^xsd:gYear, \"2018-01-15\"string^string^xsd:date. When cataloging a model from documents, we recommend using the publication date from the first one."@en .
+
+dct:language rdfs:comment "Determines a language in which the lexical labels of the semantic artefact are written. We require the use of values listed in the IANA Language Sub Tag Registry. E.g., 'en', 'pt'."@en .
+
+dct:license rdfs:comment "Identifies a legal document under which the resource is made available. E.g., https://creativecommons.org/licenses/by/4.0/."@en .
+
+dct:modified rdfs:comment "Determines when the resource was last modified. Accepts literals of the types xsd:dateTime, xsd:date, xsd:gYearMonth, and xsd:gYear. When cataloging a model based on documents, we recommend using the publication date from the latest one."@en .
+
+dct:publisher rdfs:comment "Identifies the foaf:Agent who added the resource to the catalog. The publisher does not need to have created or contributed to the resource."@en .
+
+dct:source rdfs:comment "Identifies resources that contain, present, or significantly influenced the development of the semantic artefact. We recommend the use of persistent and resolvable identifiers to refer to these resources, such as the Digital Object Identifier (DOI) or DBLP's URI. E.g., https://doi.org/10.3233/AO-150150, https://dblp.org/rec/journals/ao/Morales-Ramirez15."@en .
+
+dct:title rdfs:comment "Determines a title for the resource. Accepts xsd:string and rdf:langString literals. E.g., \"Common Ontology of Value and Risk\"@en, \"FAIR Model Catalog for Ontology-Driven Conceptual Modeling Research\"@en. There must be at most one title per language."@en .
+
+mod:acronym rdfs:comment "Determines an acronym one can use to refer to the semantic artefact. Accepts only xsd:string literals. E.g., 'RDBS-O', 'COVER', 'ROT'."@en .
+
+mod:designedForTask rdfs:comment "Identifies a goal that motivated the development of the semantic artefact."@en .
+
+skos:editorialNote rdfs:comment "Determines a general note relative to the resource documentation process. Accepts xsd:string and rdf:langString literals. E.g., \"The model was originally designed in Portuguese and translated by the publisher.\"@en."@en .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+
+###  https://w3id.org/ontouml-models/vocabulary#conformsToSchema
+ocmv:conformsToSchema rdf:type owl:ObjectProperty ;
+                      rdfs:domain dcat:Distribution ;
+                      rdfs:range rdfs:Resource ;
+                      rdfs:comment "Identifies a schema upon which the distribution can be validated against. E.g., a JSON Schema document, a SHACL shape, and an XML Schema document."@en ;
+                      skos:scopeNote "The identified schema should be compatible with the media type of the distribution. That is, if a distribution is in JSON, the schema cannot be an XML Schema."@en ;
+                      rdfs:isDefinedBy <https://w3id.org/ontouml-models/vocabulary> ;
+                      rdfs:label "conforms to schema"@en .
+
+
+###  https://w3id.org/ontouml-models/vocabulary#context
+ocmv:context rdf:type owl:ObjectProperty ;
+             rdfs:domain mod:SemanticArtefact ;
+             rdfs:range ocmv:OntologyDevelopmentContext ;
+             rdfs:comment "Identifies an ocmv:Context in which the artefact was developed."@en ;
+             rdfs:isDefinedBy <https://w3id.org/ontouml-models/vocabulary> ;
+             rdfs:label "context"@en .
+
+
+###  https://w3id.org/ontouml-models/vocabulary#ontologyType
+ocmv:ontologyType rdf:type owl:ObjectProperty ;
+                  rdfs:domain mod:SemanticArtefact ;
+                  rdfs:range ocmv:OntologyType ;
+                  rdfs:comment "Identifies an ocmv:OntologyRepresentationStyle representation styles adopted in the artefact."@en ;
+                  rdfs:isDefinedBy <https://w3id.org/ontouml-models/vocabulary> ;
+                  rdfs:label "ontology type"@en .
+
+
+###  https://w3id.org/ontouml-models/vocabulary#representationStyle
+ocmv:representationStyle rdf:type owl:ObjectProperty ;
+                         rdfs:domain mod:SemanticArtefact ;
+                         rdfs:range ocmv:OntologyRepresentationStyle ;
+                         rdfs:comment "Identifies an ocmv:OntologyRepresentationStyle representation adopted in the artefact."@en ;
+                         rdfs:isDefinedBy <https://w3id.org/ontouml-models/vocabulary> ;
+                         rdfs:label "representation style"@en .
+
+
+#################################################################
+#    Data Properties
+#################################################################
+
+
+###  https://w3id.org/ontouml-models/vocabulary#isComplete
+ocmv:isComplete rdf:type owl:DatatypeProperty ;
+             rdfs:domain dcat:Distribution ;
+             rdfs:range xsd:boolean ;
+             rdfs:comment "Determines if a distribution contains all the data from the dcat:Dataset it materializes. In the catalog, the distributions of models in VPP, JSON, and Turtle are complete, while those in image format are not."@en ;
+             rdfs:isDefinedBy <https://w3id.org/ontouml-models/vocabulary> ;
+             rdfs:label "is complete"@en .
+
+
+###  https://w3id.org/ontouml-models/vocabulary#storageUrl
+ocmv:storageUrl rdf:type owl:DatatypeProperty ;
+                rdfs:domain dcat:Dataset ;
+                rdfs:range xsd:anyURI ;
+                rdfs:comment "Determines a URL of a service in which the data and metadata of the dataset are stored. Accepts values in xsd:anyURI."@en ;
+                rdfs:isDefinedBy <https://w3id.org/ontouml-models/vocabulary> ;
+                rdfs:label "storage URL"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+
+###  https://w3id.org/ontouml-models/vocabulary#MetadataElement
+ocmv:MetadataElement rdf:type owl:Class ;
+                     rdfs:comment "An element used in the metadata description of OntoUML models."@en ;
+                     rdfs:isDefinedBy <https://w3id.org/ontouml-models/vocabulary> ;
+                     rdfs:label "Metadata Element"@en .
+
+
+###  https://w3id.org/ontouml-models/vocabulary#OntologyDevelopmentContext
+ocmv:OntologyDevelopmentContext rdf:type owl:Class ;
+                                rdfs:subClassOf ocmv:MetadataElement ;
+                                rdfs:comment "Determines what is the context in which the artifact was developed."@en ;
+                                rdfs:isDefinedBy <https://w3id.org/ontouml-models/vocabulary> ;
+                                rdfs:label "Ontology Development Context"@en .
+
+
+###  https://w3id.org/ontouml-models/vocabulary#OntologyPurpose
+ocmv:OntologyPurpose rdf:type owl:Class ;
+                     rdfs:subClassOf ocmv:MetadataElement ;
+                     rdfs:comment "Determines what is the main purpose of the artifact (e.g., conceptual clarification or data integration)."@en ;
+                     rdfs:isDefinedBy <https://w3id.org/ontouml-models/vocabulary> ;
+                     rdfs:label "Ontology Purpose"@en .
+
+
+###  https://w3id.org/ontouml-models/vocabulary#OntologyRepresentationStyle
+ocmv:OntologyRepresentationStyle rdf:type owl:Class ;
+                                 rdfs:subClassOf ocmv:MetadataElement ;
+                                 rdfs:comment "Representation styles adopted for modeling the artefact."@en ;
+                                 rdfs:isDefinedBy <https://w3id.org/ontouml-models/vocabulary> ;
+                                 rdfs:label "Ontology Representation Style"@en .
+
+
+###  https://w3id.org/ontouml-models/vocabulary#OntologyType
+ocmv:OntologyType rdf:type owl:Class ;
+                  rdfs:subClassOf ocmv:MetadataElement ;
+                  rdfs:comment "Identifies the categorization of the artifacts according to their scopes."@en ;
+                  rdfs:isDefinedBy <https://w3id.org/ontouml-models/vocabulary> ;
+                  rdfs:label "Ontology Type"@en .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+
+###  https://w3id.org/ontouml-models/vocabulary#Application
+ocmv:Application rdf:type owl:NamedIndividual ,
+                          ocmv:OntologyType ;
+                 rdfs:comment "Identifies an ontology that specializes a domain ontology where there could be no consensus or knowledge sharing. It represents the particular model of a domain according to a single viewpoint of a user or a developer."@en ;
+                 rdfs:isDefinedBy <https://w3id.org/ontouml-models/vocabulary> ;
+                 rdfs:label "Application Ontology"@en .
+
+
+###  https://w3id.org/ontouml-models/vocabulary#Classroom
+ocmv:Classroom rdf:type owl:NamedIndividual ,
+                        ocmv:OntologyDevelopmentContext ;
+               rdfs:comment "Determines that the artefact was developed within the context of a course on conceptual modeling, most likely as a course assignment."@en ;
+               rdfs:isDefinedBy <https://w3id.org/ontouml-models/vocabulary> ;
+               rdfs:label "Classroom Context"@en .
+
+
+###  https://w3id.org/ontouml-models/vocabulary#ConceptualClarification
+ocmv:ConceptualClarification rdf:type owl:NamedIndividual ,
+                                      ocmv:OntologyPurpose ;
+                             rdfs:comment "Determines that the artefact was created as the result of an ontological analysis of a concept, language, or domain of interest that sought to conceptually clarify and untangle complex notions and relations."@en ;
+                             rdfs:isDefinedBy <https://w3id.org/ontouml-models/vocabulary> ;
+                             rdfs:label "Conceptual Clarification Purpose"@en .
+
+
+###  https://w3id.org/ontouml-models/vocabulary#Core
+ocmv:Core rdf:type owl:NamedIndividual ,
+                   ocmv:OntologyType ;
+          rdfs:comment "Identifies an ontology that grasps the central concepts and relations of a given domain, possibly integrating several domain ontologies and being applicable in multiple scenarios. E.g., UFO-S, a commitment-based ontology of services, can be considered a core ontology because it applies to services in multiple domains, such as medical, financial, and legal services."@en ;
+          rdfs:isDefinedBy <https://w3id.org/ontouml-models/vocabulary> ;
+          rdfs:label "Core Ontology"@en .
+
+
+###  https://w3id.org/ontouml-models/vocabulary#DataPublication
+ocmv:DataPublication rdf:type owl:NamedIndividual ,
+                              ocmv:OntologyPurpose ;
+                     rdfs:comment "Determines that the artefact was created to support the publication of some datasets. For instance, a conceptual model used to generate an OWL vocabulary to publish tabular data as linked open data on the web."@en ;
+                     rdfs:isDefinedBy <https://w3id.org/ontouml-models/vocabulary> ;
+                     rdfs:label "Data Publication Purpose"@en .
+
+
+###  https://w3id.org/ontouml-models/vocabulary#DecisionSupportSystem
+ocmv:DecisionSupportSystem rdf:type owl:NamedIndividual ,
+                                    ocmv:OntologyPurpose ;
+                           rdfs:comment "Determines that the artefact was created during the development of a decision support system."@en ;
+                           rdfs:isDefinedBy <https://w3id.org/ontouml-models/vocabulary> ;
+                           rdfs:label "Decision Support System Purpose"@en .
+
+
+###  https://w3id.org/ontouml-models/vocabulary#Domain
+ocmv:Domain rdf:type owl:NamedIndividual ,
+                     ocmv:OntologyType ;
+            rdfs:comment "Identifies an ontology that describes how a community conceptualizes a phenomenon of interest. In general, a domain ontology formally characterizes a much narrower domain than a core ontology does. E.g., OntoBio is a domain ontology of biodiversity."@en ;
+            rdfs:isDefinedBy <https://w3id.org/ontouml-models/vocabulary> ;
+            rdfs:label "Domain Ontology"@en .
+
+
+###  https://w3id.org/ontouml-models/vocabulary#Example
+ocmv:Example rdf:type owl:NamedIndividual ,
+                      ocmv:OntologyPurpose ;
+             rdfs:comment "Determines that the artefact was created to demonstrate how OntoUML can be used to solve a certain modeling challenge, to support an experiment involving OntoUML, or to exemplify how a generic model can be reused in more concrete scenarios."@en ;
+             rdfs:isDefinedBy <https://w3id.org/ontouml-models/vocabulary> ;
+             rdfs:label "Example Purpose"@en .
+
+
+###  https://w3id.org/ontouml-models/vocabulary#Industry
+ocmv:Industry rdf:type owl:NamedIndividual ,
+                       ocmv:OntologyDevelopmentContext ;
+              rdfs:comment "Determines that the artefact was developed for a public or private organization."@en ;
+              rdfs:isDefinedBy <https://w3id.org/ontouml-models/vocabulary> ;
+              rdfs:label "Industry Context"@en .
+
+
+###  https://w3id.org/ontouml-models/vocabulary#InformationRetrieval
+ocmv:InformationRetrieval rdf:type owl:NamedIndividual ,
+                                   ocmv:OntologyPurpose ;
+                          rdfs:comment "Determines that the artefact was created to support the design of an information retrieval system."@en ;
+                          rdfs:isDefinedBy <https://w3id.org/ontouml-models/vocabulary> ;
+                          rdfs:label "Information Retrieval Purpose"@en .
+
+
+###  https://w3id.org/ontouml-models/vocabulary#Interoperability
+ocmv:Interoperability rdf:type owl:NamedIndividual ,
+                               ocmv:OntologyPurpose ;
+                      rdfs:comment "Determines that the artefact was created to support data integration, vocabulary alignment, or the interoperability of software systems."@en ;
+                      rdfs:isDefinedBy <https://w3id.org/ontouml-models/vocabulary> ;
+                      rdfs:label "Interoperability Purpose"@en .
+
+
+###  https://w3id.org/ontouml-models/vocabulary#LanguageEngineering
+ocmv:LanguageEngineering rdf:type owl:NamedIndividual ,
+                                  ocmv:OntologyPurpose ;
+                         rdfs:comment "Determines that the artefact was created for the design of a domain-specific modeling language."@en ;
+                         rdfs:isDefinedBy <https://w3id.org/ontouml-models/vocabulary> ;
+                         rdfs:label "Language Engineering Purpose"@en .
+
+
+###  https://w3id.org/ontouml-models/vocabulary#Learning
+ocmv:Learning rdf:type owl:NamedIndividual ,
+                       ocmv:OntologyPurpose ;
+              rdfs:comment "Determines that the artefact was created so that its authors could learn UFO and OntoUML. This usually applies to models developed by students as part of their course assignments."@en ;
+              rdfs:isDefinedBy <https://w3id.org/ontouml-models/vocabulary> ;
+              rdfs:label "Learning Purpose"@en .
+
+
+###  https://w3id.org/ontouml-models/vocabulary#OntologicalAnalysis
+ocmv:OntologicalAnalysis rdf:type owl:NamedIndividual ,
+                                  ocmv:OntologyPurpose ;
+                         rdfs:comment "Determines if the artefact was created as the result of an ontological analysis of a concept, language, or domain of interest that sought to conceptually clarify and untangle complex notions and relations."@en ;
+                         rdfs:isDefinedBy <https://w3id.org/ontouml-models/vocabulary> ;
+                         rdfs:label "Ontological Analysis Purpose"@en .
+
+
+###  https://w3id.org/ontouml-models/vocabulary#OntoumlStyle
+ocmv:OntoumlStyle rdf:type owl:NamedIndividual ,
+                           ocmv:OntologyRepresentationStyle ;
+                  rdfs:comment "Characterizes a model that contains at least one class, relation, or property using a valid OntoUML stereotype."@en ;
+                  rdfs:isDefinedBy <https://w3id.org/ontouml-models/vocabulary> ;
+                  rdfs:label "OntoUML Style"@en .
+
+
+###  https://w3id.org/ontouml-models/vocabulary#Research
+ocmv:Research rdf:type owl:NamedIndividual ,
+                       ocmv:OntologyDevelopmentContext ;
+              rdfs:comment "Determines that the artefact was developed as part of a research project. This usually implies that the artefact was featured in a scientific publication."@en ;
+              rdfs:isDefinedBy <https://w3id.org/ontouml-models/vocabulary> ;
+              rdfs:label "Research Context"@en .
+
+
+###  https://w3id.org/ontouml-models/vocabulary#SoftwareEngineering
+ocmv:SoftwareEngineering rdf:type owl:NamedIndividual ,
+                                  ocmv:OntologyPurpose ;
+                         rdfs:comment "Determines that the artefact was created during the development of an information system. For instance, a conceptual model that is used to generate a relational database."@en ;
+                         rdfs:isDefinedBy <https://w3id.org/ontouml-models/vocabulary> ;
+                         rdfs:label "Software Engineering Purpose"@en .
+
+
+###  https://w3id.org/ontouml-models/vocabulary#UfoStyle
+ocmv:UfoStyle rdf:type owl:NamedIndividual ,
+                       ocmv:OntologyRepresentationStyle ;
+              rdfs:comment "Characterizes a model that contains at least one class or relation from UFO without an OntoUML stereotype."@en ;
+              rdfs:isDefinedBy <https://w3id.org/ontouml-models/vocabulary> ;
+              rdfs:label "UFO Style"@en .
