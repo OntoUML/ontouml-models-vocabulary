@@ -1,8 +1,8 @@
-# OntoUML/UFO Catalog Metadata Vocabulary
+# OntoUML/UFO Catalog Metadata Vocabulary (OCMV)
 
 <p align="center"><img src="/resources/logo-ocmv.png" width="500">
 
-The OntoUML/UFO Catalog Metadata Vocabulary was created to satisfy the metadata needs of the [OntoUML/UFO Catalog](https://w3id.org/ontouml-models/git), complementing the catalog's schema with properties to improve the findability and reusability of the catalog and its models.
+The OntoUML/UFO Catalog Metadata Vocabulary (OCMV) was created to satisfy the metadata needs of the [OntoUML/UFO Catalog](https://w3id.org/ontouml-models/git), complementing the catalog's schema with properties to improve the findability and reusability of the catalog and its models.
 
 - [Access the OntoUML/UFO Catalog Metamodel Vocabulary's complete textual specification.](https://w3id.org/ontouml-models/vocabulary/docs)
 - [Access the OntoUML/UFO Catalog Metamodel Vocabulary's formal specification in Turtle syntax.](https://w3id.org/ontouml-models/vocabulary)
