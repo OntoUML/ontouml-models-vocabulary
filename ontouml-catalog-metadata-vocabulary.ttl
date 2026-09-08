@@ -22,7 +22,7 @@
 
                                               owl:versionIRI <https://w3id.org/ontouml-models/vocabulary/v1.1.0> ;
                                               owl:versionInfo "1.1.0"@en ;
-                                              owl:priorVersion <https://w3id.org/ontouml-models/vocabulary/v1.0.0> ;
+                                              owl:priorVersion <https://w3id.org/ontouml-models/vocabulary/1.0> ;
                                               dct:issued "2022-04-03"^^xsd:date ;
                                               dct:modified "2023-07-28"^^xsd:date ;
 

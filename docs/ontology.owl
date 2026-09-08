@@ -29,7 +29,7 @@
         <terms:title xml:lang="en">OntoUML/UFO Catalog Metadata Vocabulary</terms:title>
         <vann:preferredNamespacePrefix xml:lang="en">ocmv</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://w3id.org/ontouml-models/vocabulary#</vann:preferredNamespaceUri>
-        <owl:priorVersion rdf:resource="https://w3id.org/ontouml-models/vocabulary/v1.0.0"/>
+        <owl:priorVersion rdf:resource="https://w3id.org/ontouml-models/vocabulary/1.0"/>
         <owl:versionInfo xml:lang="en">1.1.0</owl:versionInfo>
         <dcat:keyword xml:lang="en">Metadata</dcat:keyword>
         <dcat:keyword xml:lang="en">OntoUML/UFO Catalog</dcat:keyword>
