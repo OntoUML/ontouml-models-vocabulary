@@ -16,7 +16,7 @@
 <https://w3id.org/ontouml-models/vocabulary> <http://purl.org/dc/terms/title> "OntoUML/UFO Catalog Metadata Vocabulary"@en .
 <https://w3id.org/ontouml-models/vocabulary> <http://purl.org/vocab/vann/preferredNamespacePrefix> "ocmv"@en .
 <https://w3id.org/ontouml-models/vocabulary> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/ontouml-models/vocabulary#"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-<https://w3id.org/ontouml-models/vocabulary> <http://www.w3.org/2002/07/owl#priorVersion> <https://w3id.org/ontouml-models/vocabulary/v1.0.0> .
+<https://w3id.org/ontouml-models/vocabulary> <http://www.w3.org/2002/07/owl#priorVersion> <https://w3id.org/ontouml-models/vocabulary/1.0> .
 <https://w3id.org/ontouml-models/vocabulary> <http://www.w3.org/2002/07/owl#versionInfo> "1.1.0"@en .
 <https://w3id.org/ontouml-models/vocabulary> <http://www.w3.org/ns/dcat#keyword> "Metadata"@en .
 <https://w3id.org/ontouml-models/vocabulary> <http://www.w3.org/ns/dcat#keyword> "OntoUML/UFO Catalog"@en .

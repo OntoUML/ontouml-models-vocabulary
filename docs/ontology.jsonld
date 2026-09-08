@@ -306,7 +306,7 @@
     "@id" : "http://purl.org/dc/terms/Standard"
   } ],
   "http://www.w3.org/2002/07/owl#priorVersion" : [ {
-    "@id" : "https://w3id.org/ontouml-models/vocabulary/v1.0.0"
+    "@id" : "https://w3id.org/ontouml-models/vocabulary/1.0"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
     "@id" : "https://w3id.org/ontouml-models/vocabulary/v1.1.0"
